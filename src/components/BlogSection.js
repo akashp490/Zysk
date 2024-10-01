@@ -28,7 +28,7 @@ const BlogSection = () => {
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
     
     <div className="p-4 rounded-lg">
-      <img src={b1} className="w-full h-auto rounded" />
+      <img src={b1} alt='' className="w-full h-auto rounded" />
       <h3 className="text-customPurple font-semibold text-sm my-2">Design</h3>
       <a href='/' className='font-bold text-[#101828] flex justify-between'>
         <h2> UX review presentations</h2>
@@ -48,7 +48,7 @@ const BlogSection = () => {
     </div>
 
     <div className="p-4 rounded-lg">
-      <img src={b2} className="w-full h-auto rounded" />
+      <img src={b2} alt='' className="w-full h-auto rounded" />
       <h3 className="text-customPurple font-semibold text-sm my-2">Design</h3>
       <a href='/' className='font-bold text-[#101828] flex justify-between'>
         <h2> UX review presentations</h2>
@@ -68,7 +68,7 @@ const BlogSection = () => {
     </div>
 
     <div className="p-4 rounded-lg">
-      <img src={b3} className="w-full h-auto rounded" />
+      <img src={b3} alt='' className="w-full h-auto rounded" />
       <h3 className="text-customPurple font-semibold text-sm my-2">Design</h3>
       <a href='/' className='font-bold text-[#101828] flex justify-between'>
         <h2> UX review presentations</h2>
